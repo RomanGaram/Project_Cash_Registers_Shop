@@ -1,0 +1,81 @@
+/* STYLES FOR MODAL WINDOW */
+
+.md-all-context {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.md-title {
+    height: 10%;
+    font-family: 'Tinos', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.md-main {
+    height: 45%;
+    font-size: 22px;
+    line-height: 2rem;
+}
+
+.md-footer {
+    height: 30%;
+}
+
+.back_shopping {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    margin: 0 10px 0 0;
+    background: rgb(141, 141, 141);
+    color: #393b3c;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif
+}
+
+.proceed_cart {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    margin: 0 0 0 10px;
+    background: rgb(141, 141, 141);
+    color: #393b3c;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif
+}
+
+.back_shopping:hover {
+    background-color: #393b3c;
+    color: #dee1e3;
+}
+
+.proceed_cart:hover {
+    background-color: #393b3c;
+    color: #dee1e3;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+/* MEDIA FOR MEDIUM SCREEN */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .md-wrapper {
+        width: fit-content;
+    }
+}

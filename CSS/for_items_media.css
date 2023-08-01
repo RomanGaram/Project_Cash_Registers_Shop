@@ -1,0 +1,299 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* FOR ITEMS PAGE */
+
+    /* TOP LEFT */
+    .item_header_h1 {
+        font-size: 3.2vw;
+    }
+
+    .block_for_img {
+        margin: 0 5px;
+    }
+
+    .for_big img {
+        max-width: 100%;
+    }
+
+    .for_big {
+        width: 75%;
+        height: 0;
+    }
+
+    /* TOP LEFT END*/
+
+    /* TOP RIGHT */
+    #rigth_wraper {
+        width: 35%;
+        margin: 90px 15px 0 15px;
+    }
+
+    .price_title {
+        font-size: 3.2vw;
+    }
+
+    .for_quantity {
+        width: 50%;
+        margin: 0;
+    }
+
+    .add_to_cart_wraper {
+        align-items: center;
+    }
+
+
+    /* BOTTOM SECTION */
+    .info_header {
+        margin-bottom: 0;
+    }
+
+    .info_button {
+        font-size: 3vw;
+    }
+
+    .content {
+        font-size: 2.2vw;
+        margin-top: 0;
+    }
+}
+
+
+/* MEDIA FOR MEDIUM SCREEN */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /* FILTERS SECTION */
+    .filter_wraper {
+        width: 25%;
+    }
+
+    .filter_in_stock h3,
+    .availability h3,
+    .brand h3,
+    .product_type h3,
+    .color h3 {
+        font-size: 20px;
+    }
+
+    input[type="checkbox"] {
+        width: 0.85em;
+        height: 0.85em;
+    }
+
+    .labels_f {
+        line-height: 1rem;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .ftc {
+        padding: 0px 10px;
+    }
+
+    .hide_f,
+    .unhiden_f {
+        margin-right: 0;
+        width: 18px;
+        margin-top: 5px;
+    }
+
+    /* FILTERS SECTION END */
+
+
+    /* TOP LEFT */
+    .item_header_h1 {
+        font-size: 3.2vw;
+    }
+
+    .for_big img {
+        max-width: 100%;
+    }
+
+    .for_big {
+        width: 75%;
+        height: 0;
+    }
+
+    /* TOP LEFT END*/
+}
+
+/* MEDIA FOR MEDIUM SCREEN END */
+
+
+/* MEDIA FOR SMALL SCREEN */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+        max-width: 767px;
+    }
+
+    /* FILTERS SECTION */
+    .filtrer_title {
+        top: 40px;
+        left: 50%;
+        font-size: 16px;
+    }
+
+    .inner {
+        top: 0;
+    }
+
+    .filter_wraper {
+        width: 95%;
+        border: none;
+    }
+
+    .filter_in_stock,
+    .ftc {
+        width: 75%;
+        padding: 5px;
+    }
+
+    .filter_in_stock h3,
+    .availability h3,
+    .brand h3,
+    .product_type h3,
+    .color h3 {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .ofw {
+        margin: 8px auto;
+    }
+
+    input[type="checkbox"] {
+        width: 0.55em;
+        height: 0.55em;
+    }
+
+    .labels_f {
+        line-height: 0.6rem;
+        font-weight: 400;
+        font-size: 2vw;
+    }
+
+    .hide_f,
+    .unhiden_f {
+        margin-right: 5px;
+        width: 12px;
+    }
+
+    /* FILTERS SECTION END*/
+
+    /* MAIN SECTION */
+
+    #main_wraper {
+        padding-top: 50px;
+    }
+
+    .previous_page {
+        top: 50px;
+    }
+
+    .top_wraper {
+        flex-flow: column;
+    }
+
+    #left_wraper {
+        width: 100%;
+    }
+
+    .block_for_img {
+        flex-flow: column-reverse;
+        max-width: 767px;
+        height: max-content;
+        margin: 0 auto;
+    }
+
+    .for_small {
+        flex-flow: row;
+        width: 98%;
+        height: fit-content;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .small_imgs {
+        width: 20%;
+        padding: 5px;
+    }
+
+    .for_big {
+        height: max-content;
+        margin-bottom: 20px;
+    }
+
+    .for_big img {
+        width: 100%;
+    }
+
+    /* TOP RIGHT */
+    #rigth_wraper {
+        width: 95%;
+        height: min-content;
+        margin: 0px auto;
+    }
+
+    .price_title {
+        justify-content: flex-end;
+        margin: 15px 10px 0 0;
+    }
+
+    .price {
+        padding: 4px;
+        font-size: 1.1rem;
+    }
+
+    .for_quantity {
+        width: 35%;
+    }
+
+    .minus_button,
+    .plus_button {
+        width: 0;
+        height: 15px;
+    }
+
+    #numericInput {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .buy_now {
+        font-size: 1.2rem;
+    }
+
+
+    /* BOTTOM SECTION */
+    .info_header {
+        width: 98%;
+        margin: 0px auto;
+    }
+
+    .info_button {
+        height: max-content;
+        font-size: 4.2vw;
+    }
+
+    .info_content {
+        height: max-content;
+        padding: 0 5px 0 15px;
+        font-size: 3.2vw;
+    }
+
+    .desc_hat {
+        font-size: 3.2vw;
+    }
+
+    .description ul {
+        margin-left: 0;
+        padding-right: 10px;
+        padding-bottom: 25px;
+        line-height: normal;
+        list-style-position: inside;
+    }
+
+    tr,
+    td {
+        font-size: 2.8vw;
+    }
+}
