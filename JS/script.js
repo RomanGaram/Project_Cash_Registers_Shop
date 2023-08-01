@@ -215,6 +215,7 @@ function addToCart(event) {
         } else {
             cartCounter.innerText = currentCount + 'pcs';
         }
+        document.querySelector('.modal-overlay').remove();
     });
 
     let backBtn = document.querySelector('.back_shopping');
