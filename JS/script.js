@@ -208,7 +208,7 @@ function addToCart(event) {
 
     let proceedBtn = document.querySelector('.proceed_cart');
     proceedBtn.addEventListener('click', (currentCount) => {
-        window.location.href = './cart.html';
+        window.location.href = 'cart.html';
         localStorage.setItem('cartArray', JSON.stringify(cartArray))
         if (currentCount < 2) {
             cartCounter.innerText = currentCount + 'pc';
