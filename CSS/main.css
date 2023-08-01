@@ -6,7 +6,7 @@
 #ms_wraper {
     position: relative;
     display: flex;
-    background: #fff url(Images/h_bg.jpg)repeat top;
+    background: #fff url(../Images/h_bg.jpg)repeat top;
     padding-top: 5px;
 }
 

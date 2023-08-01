@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   height: 160px;
-  background: #fff url(Images/h_bg.jpg) repeat top;
+  background: #fff url(../Images/h_bg.jpg) repeat top;
   color: #fff;
   border-bottom: 3px solid rgb(51, 51, 51);
 
@@ -103,7 +103,7 @@
   position: relative;
   height: 150px;
   width: 30%;
-  background-image: url(Images/antique_cash_register.jpg);
+  background-image: url(../Images/antique_cash_register.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -148,7 +148,7 @@
   width: 55px;
   height: 55px;
   filter: invert(100%);
-  background-image: url(Images/cash-register-icon.png);
+  background-image: url(../Images/cash-register-icon.png);
   background-position: center;
   background-size: cover;
   cursor: pointer;
