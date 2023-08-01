@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/af9c6ecfbb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Teko:wght@300;400;500;600&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Item page</title>
+    <link rel="stylesheet" href="../CSS/item_page.css">
+    <link rel="stylesheet" href="../CSS/for_header.css">
+    <link rel="stylesheet" href="../CSS/for_footer.css">
+    <link rel="stylesheet" href="../CSS/for_modalW.css">
+    <link rel="stylesheet" href="../CSS/for_items_media.css">
+</head>
+
+<body>
+    <header>
+        <div class="hd_container">
+            <div class="container__left">
+                <svg id="menu_btn" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">! Font Awesome
+                    Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license
+                    (Commercial License) Copyright 2023 Fonticons, Inc.<style>
+                    </style>
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+                <div class="menu_wraper hidden">
+                    <nav>
+                        <ul>
+                            <li><a href="http://">Menu items list 1</a></li>
+                            <li><a href="http://">Menu items list 2</a></li>
+                            <li><a href="http://">Menu items list 3</a></li>
+                            <li><a href="http://">Menu items list 4</a></li>
+                            <li><a href="http://">Menu items list 5</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <a class="container__center container__logo" href="./index.html">
+                <div>
+                    <h1 class="logo_text">YOUR LOGO HERE</h1>
+                </div>
+            </a>
+            <div class="container__right ">
+                <div class="phone_section">
+                    <a href="tel:+ 55 6645 665544" class="nav-link">+ 55 6645 665544</a>
+                    <div>
+                        <a class="phone__callback-link" href="#" data-modal="#call-me">Call you back?</a>
+                    </div>
+                </div>
+                <div class="cart_section">
+                    <div class="cart-img">
+                        <a href="./cart.html">
+                            <input type="button" id="cart_btn">
+                        </a>
+                    </div>
+                    <div class="cart__items">0pc</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main_wraper">
+            <button class="previous_page" type="button">Back</button>
+            <div class="wrap_of_all">
+                <div class="top_wraper">
+                    <div id="left_wraper">
+                        <div class="item_header">
+                            <h1 class="item_header_h1">Royal 6000ML Cash Register, Black</h1>
+                        </div>
+                        <div class="block_for_img">
+                            <div class="for_small">
+                            </div>
+                            <div class="for_big">
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="rigth_wraper">
+                        <div class="price_title">
+                            <h2 class="price"></h2>
+                        </div>
+                        <div class="add_to_cart_wraper">
+                            <div class="for_quantity">
+                                <div class="minus_button">
+
+                                </div>
+                                <div class="quantity_window">
+                                    <input type="text" id="numericInput" class="quantity_counter" type="number"
+                                        name="quantity" min="0" value="1">
+                                </div>
+                                <div class="plus_button">
+
+                                </div>
+                            </div>
+                            <button class="buy_now" type="button">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom_wraper">
+                    <div class="information_block">
+                        <div class="info_header">
+                            <button class="info_button desc active" type="button">Description</button>
+                            <button class="info_button spec" type="button">Specification</button>
+                            <button class="info_button review" type="button">Reviews</button>
+                        </div>
+                        <div class="info_content">
+                            <div class="content description visible"></div>
+                            <div class="content specs hidden">
+
+                            </div>
+                            <div class="content reviews hidden">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="ft_wraper">
+            <div class="for_copiright">
+                <img class="copi_logo" src="../Images/copyright-regular.svg" alt="copyright"><a
+                    href="../HTML/copyright.html">Copyright</a>
+            </div>
+            <p>Site created by: Roman Garam</p>
+            <p class="rest_info">
+                Information taken from the site <a href="https://www.officedepot.com/" target="_blank"
+                    rel="noopener noreferrer">www.officedepot.com</a><br>
+                Not for commercial use. <br>
+                All prices are fictitious and do not correspond to reality. <br>
+                To contact me: <a href="mailto:Romangaram@gmail.com">Romangaram@gmail.com</a>
+            </p>
+        </div>
+    </footer>
+    <script type="module" src="../JS/item_page.js"></script>
+    <script src="../JS/sm_header.js"></script>
+</body>
+
+</html>
