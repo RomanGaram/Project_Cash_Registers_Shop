@@ -169,6 +169,7 @@
 
 .quantity_window {
     height: 100%;
+    width: max-content;
     border: 3px solid #f8f9f998;
     border-radius: 5px;
     text-align: center;
@@ -176,6 +177,8 @@
 }
 
 #numericInput {
+    display: flex;
+    align-items: center;
     text-align: center;
     width: 100%;
     height: 100%;
@@ -185,7 +188,6 @@
     color: #f8f9f9;
     appearance: none;
     outline: 0;
-    margin-top: 5%;
 }
 
 .minus_button {
